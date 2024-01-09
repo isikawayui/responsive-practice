@@ -75,7 +75,7 @@
 .flexbox-center{
     display: flex;
     justify-content: center;
-    text-align: center;
+    flex-direction: reverse;
 }
 .text{
     text-align: center;
@@ -102,11 +102,11 @@
 }
 .B-litegreen{
     background: #d4ff00;
-    order: 1;
+    order: 2;
 }
 .C-pink{
     background: #ff00e1;
-    order: 1;
+    order: 3;
 }
 @media screen and  (max-width:960px){
 .A-green{order: 2;}
