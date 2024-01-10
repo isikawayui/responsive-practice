@@ -48,10 +48,6 @@
 }
 }
 
-.float-center{
-  text-align: center;
-}
-
 .size{
   width: 300px;
   height: 300px;
@@ -71,10 +67,6 @@
   clear: both;
   float: left;
 }
-.float-red{
-  float: left;
-}
-
 }
 
 .flexbox-center{
