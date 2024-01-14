@@ -24,7 +24,7 @@
 }
 }
 
-.margin-center,.float-erea{
+.margin-center{
   display: flex;
   justify-content: center;
 }
@@ -52,6 +52,13 @@
   width: 300px;
   height: 300px;
 }
+
+.float-center{
+  text-align: center;
+}
+.float-erea{
+  display: inline-block;
+}
 .float-red{
   background: #ff0000;
   float: left;
@@ -72,6 +79,7 @@
 .flexbox-center{
   display: flex;
   justify-content: center;
+
   flex-direction: row;
 }
 .text{
@@ -117,7 +125,7 @@
 }
 .Q7-red{
   background: #ff0000;
-  display: flex;
+  display: block;
 }
 .Q7-bule{
   background: #0008ff;
@@ -129,6 +137,6 @@
   display: none;
 }
 .Q7-bule{
-  display: flex;
+  display: block;
 }
 }
