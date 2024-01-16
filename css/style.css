@@ -68,18 +68,14 @@
   float: left;
 }
 @media screen and  (max-width:960px){
-.float-bule{
-  content: "";
-  display: block;
-  clear: both;
-  float: left;
+.float-bule,.float-red{
+  float: none;
 }
 }
 
 .flexbox-center{
   display: flex;
   justify-content: center;
-
   flex-direction: row;
 }
 .text{
