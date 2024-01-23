@@ -68,8 +68,10 @@
   float: left;
 }
 @media screen and  (max-width:960px){
-.float-bule,.float-red{
-  float: none;
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
 }
 }
 
