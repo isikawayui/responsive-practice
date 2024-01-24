@@ -59,6 +59,11 @@
 .float-erea{
   display: inline-block;
 }
+.clearfix::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 .float-red{
   background: #ff0000;
   float: left;
@@ -68,11 +73,9 @@
   float: left;
 }
 @media screen and  (max-width:960px){
-.clearfix::after{
-  content: "";
-  display: block;
-  clear: both;
-}
+  .float-red,.float-bul{
+    float: none;
+  }
 }
 
 .flexbox-center{
